@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Modulo1.Pages.Entregadores.EntregadoresListPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- Título -->
+            <Label Text="Entregadores" VerticalOptions="Center" HorizontalOptions="Center" Font="25"  />
+
+            <!-- Lista de entregadores -->
+            <ListView x:Name="lvEntregadores" RowHeight="70">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="5, 0, 5, 0" Orientation="Vertical">
+                                <Label Text="{Binding Nome}" TextColor="Blue" FontSize="Large" />
+                                <Label Text="{Binding Telefone}" TextColor="Green" FontSize="Small" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

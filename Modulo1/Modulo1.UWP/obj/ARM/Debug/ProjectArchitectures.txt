@@ -1,0 +1,2 @@
+C:\Users\Domingos\Documents\Projetos\LivroXamarin\Foods\Modulo1\Modulo1.UWP\Modulo1.UWP.csproj;arm
+C:\Users\Domingos\Documents\Projetos\LivroXamarin\Foods\Modulo1\Modulo1\Modulo1.csproj;neutral
